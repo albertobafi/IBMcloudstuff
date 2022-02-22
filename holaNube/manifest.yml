@@ -1,0 +1,6 @@
+applications:
+- name: holaNube
+  memory: 32M
+  stack: cflinuxfs3
+  random-route: true
+  buildpack: staticfile_buildpack
